@@ -10,6 +10,7 @@
         <exclude name="Symfony2.Commenting.FunctionComment.SpacingAfterParams"/>
         <exclude name="Symfony2.Commenting.FunctionComment.SpacingBeforeParamType"/>
         <exclude name="Symfony2.Commenting.FunctionComment.SpacingBeforeParams"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.SpacingBeforeShort"/>
         <exclude name="Symfony2.Commenting.FunctionComment.Missing"/>
         <exclude name="Symfony2.Commenting.FunctionComment.MissingReturn"/>
         <exclude name="Symfony2.Commenting.FunctionComment.ParamNameNoMatch"/>
@@ -19,6 +20,7 @@
         <exclude name="Symfony2.Commenting.FunctionComment.MissingParamTag"/>
         <exclude name="Symfony2.Commenting.ClassComment.Missing"/>
         <exclude name="Symfony2.Commenting.ClassComment.SpacingBeforeTags"/>
+        <exclude name="Symfony2.Commenting.ClassComment.Empty"/>
         <exclude name="Symfony2.Formatting.BlankLineBeforeReturn"/>
     </rule>
 </ruleset>
