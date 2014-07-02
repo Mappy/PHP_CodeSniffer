@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<ruleset name="Mappy">
+    <description>Mappy coding standard.</description>
+    <rule ref="Symfony2">
+        <exclude name="Symfony2.Commenting.FunctionComment.ParameterCommentsNotAligned"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.ParameterNamesNotAligned"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.ExtraParamComment"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.SpacingAfterLongName"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.SpacingAfterLongType"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.SpacingAfterParams"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.SpacingBeforeParamType"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.SpacingBeforeParams"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.Missing"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.MissingReturn"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.ParamNameNoMatch"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.MissingParamName"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.WrongStyle"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.Empty"/>
+        <exclude name="Symfony2.Commenting.FunctionComment.MissingParamTag"/>
+        <exclude name="Symfony2.Commenting.ClassComment.Missing"/>
+        <exclude name="Symfony2.Commenting.ClassComment.SpacingBeforeTags"/>
+        <exclude name="Symfony2.Formatting.BlankLineBeforeReturn"/>
+    </rule>
+</ruleset>
